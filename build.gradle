@@ -11,6 +11,8 @@ sourceCompatibility = '1.8'
 repositories {
 	mavenCentral()
 }
+def mainClassName = "edu.eci.arsw.CaptureTheFlag.CaptureTheFlagApplication"
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-websocket'  //
